@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using BankingUoW.Interfaces;
+using BankingUoW.Repository;
 using UnitOfWorkBanking.DbContext;
 
 namespace BankingUoW.UnitOfWork
@@ -15,6 +16,7 @@ namespace BankingUoW.UnitOfWork
         public UnitOfWork(ApplicationDbContext context)
         {
             this.Context = context;
+            BankAccounts = new BankAccountRepository(context);
             ////set repositories here
         }
 

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using BankingUoW.Interfaces;
 using UnitOfWorkBanking.DbContext;

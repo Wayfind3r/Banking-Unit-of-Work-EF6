@@ -8,9 +8,6 @@ namespace BankingUoW.Interfaces
     {
         IEnumerable<BankAvilableCurrencyType> GetCurrencyTypesAvailableForBank(int bankId);
         IEnumerable<BankAvilableCurrencyType> GetCurrencyTypesAvailableForBanks(IEnumerable<int> bankIds, int page = 1,int pageSize = 10);
-        IEnumerable<BankAvilableCurrencyType> GetMostTradedCurrencyTypes(int? numberOfCurrencies = null);
-
-        IEnumerable<BankAvilableCurrencyType> GetMostTradedCurrenciesFilteredFrom(
-            IEnumerable<CurrencyType> currencyTypes);
+        
     }
 }

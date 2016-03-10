@@ -17,6 +17,7 @@ namespace BankingUoW.UnitOfWork
         {
             this.Context = context;
             BankAccounts = new BankAccountRepository(context);
+            BankAvailableCurrencyTypes = new BankAvailableCurrencyTypeRepository(context);
             ////set repositories here
         }
 

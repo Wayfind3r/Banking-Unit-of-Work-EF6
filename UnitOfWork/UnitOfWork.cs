@@ -19,6 +19,8 @@ namespace BankingUoW.UnitOfWork
             Banks = new BankRepository(context);
             BankAccounts = new BankAccountRepository(context);
             BankAvailableCurrencyTypes = new BankAvailableCurrencyTypeRepository(context);
+            Clients = new ClientRepository(context);
+            Transfers = new TransferRepository(context);
             ////set repositories here
         }
 

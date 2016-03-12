@@ -6,7 +6,7 @@ namespace BankingUoW.Interfaces
 {
     public interface ITransferRepository
     {
-        IEnumerable<Transfer> GetTransfersBetweenAccounts(int firstAccount, int secondAccount);
+        IEnumerable<Transfer> GetTransfersBetweenAccounts(int firstAccountId, int secondAccountId);
         IEnumerable<Transfer> GetTransfersWithCurrencyTypeInRange(CurrencyType currency, decimal? lower, decimal? higher);
 
     }

@@ -73,7 +73,9 @@
     <Compile Include="Repositories\BankAccountRepository.cs" />
     <Compile Include="Repositories\BankAvailableCurrencyTypeRepository.cs" />
     <Compile Include="Repositories\BankRepository.cs" />
+    <Compile Include="Repositories\ClientRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\TransferRepository.cs" />
     <Compile Include="Services\CurrencyServices.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
     <Compile Include="ViewModels\BankAccountViewModel.cs" />
